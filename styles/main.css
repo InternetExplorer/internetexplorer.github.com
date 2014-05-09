@@ -101,7 +101,7 @@ a {
     display: block;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
-    border-bottom: 5px solid;
+    /*border-bottom: 5px solid;*/
     padding: .2em 1em;
     color: #fff;
     line-height: 1.5em;
@@ -111,6 +111,7 @@ a {
     color: #00abe1;
 }
 
+/*
 .menu-item-tools a {
     border-color: #0079c2;
 }
@@ -125,7 +126,7 @@ a {
 
 .menu-item-involved a {
     border-color: #ff8c00;
-}
+}/*
 
 /* HEADER: Other links */
 .microsoft-logo {
@@ -188,13 +189,14 @@ footer {
 
 /* PROJECTS LIST */
 .projects {
+    position: relative;
     max-width: 810px;
     min-height: calc(100% - 185px); /* Header 60px + Footer 35px + 80px margin */ 
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
     margin-bottom: 40px;
-    padding-right: 200px;
+    padding-right: 260px;
 }
 
 .projects h2 {
@@ -221,6 +223,12 @@ a .repo {
     color: #fff;
 }
 
+.repo img {
+    width: 80px;
+    float: left;
+    margin-right: 20px;
+}
+
 .repo.blue {
     background-color: rgb(0, 186, 240);
 }
@@ -235,6 +243,30 @@ a .repo {
 
 .repo.orange {
     background-color: #ff8c00;
+}
+
+/* RESOURCES */
+.resources {
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    width: 240px;
+    min-height: 300px;
+    padding: 20px;
+    background-color: rgb(40,40,40);
+}
+
+.resources h3 {
+    margin-bottom: 20px;
+}
+
+.resources li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.resources a {
+    color: #fff;
 }
 
 @media screen and (min-width: 960px) {
