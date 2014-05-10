@@ -196,7 +196,8 @@ footer {
     margin-right: auto;
     margin-top: 40px;
     margin-bottom: 40px;
-    padding-right: 260px;
+    padding-right: 280px;
+    padding-left: 20px;
 }
 
 .projects h2 {
@@ -249,7 +250,7 @@ a .repo {
 .resources {
     position: absolute;
     top: 70px;
-    right: 0px;
+    right: 20px;
     width: 240px;
     min-height: 300px;
     padding: 20px;
@@ -269,7 +270,7 @@ a .repo {
     color: #fff;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 350px) {
     .microsoft-logo {
         display: block;
         float: right;
@@ -307,6 +308,32 @@ a .repo {
     .header {
         margin-bottom: 10px;
     }
+
+    .menu-bar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .resources {
+        position: static;
+        min-height: auto;
+        width: auto;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(40,40,40);
+    }
+
+    .resources li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .projects {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
 }
 
 @media screen and (min-width: 570px) {
