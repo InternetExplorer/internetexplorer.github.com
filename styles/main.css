@@ -269,12 +269,20 @@ a .repo {
 .resources a {
     color: #fff;
 }
+@media screen and (max-width: 369px) {
+    .icon-social {
+        margin-right: 20px;
+    }
 
-@media screen and (min-width: 350px) {
+    .repo img {
+        width: 40px;
+    }
+}
+@media screen and (min-width: 370px) {
     .microsoft-logo {
         display: block;
         float: right;
-        margin: 1.4em 0 0 1.9em;
+        margin: 1.4em 20px 0 1.9em;
     }
     .icon-social {
         margin-right: 0;
