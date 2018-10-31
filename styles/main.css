@@ -1,114 +1,118 @@
 @-ms-viewport {
-    width: device-width;
+  width: device-width;
 }
 
 @viewport {
-    width: device-width;
+  width: device-width;
 }
 
 @font-face {
-    font-family: "Segoe Custom";
-    src: url("http://www.modern.ie/cdn/fonts/west-european/normal/latest.eot");
-    src: local("Segoe UI"), url("http://www.modern.ie/cdn/fonts/west-european/normal/latest.woff") format("woff");
+  font-family: "Segoe Custom";
+  src: url("http://www.modern.ie/cdn/fonts/west-european/normal/latest.eot");
+  src: local("Segoe UI"),
+    url("http://www.modern.ie/cdn/fonts/west-european/normal/latest.woff")
+      format("woff");
 }
 
-*, *::before, *::after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
 html {
-    height: 100%;
-    font-family: "Segoe Custom", sans-serif;
+  height: 100%;
+  font-family: "Segoe Custom", sans-serif;
 }
 
 body {
-	height: 100%;
-    font-size: 14px;
-    line-height: 1.428571429;
-    background-color: #454545;
-    color: #fff;
+  height: 100%;
+  font-size: 14px;
+  line-height: 1.428571429;
+  background-color: #454545;
+  color: #fff;
 }
 
 h1 {
-    font-weight: normal;
-    line-height: 1.1;
+  font-weight: normal;
+  line-height: 1.1;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* HEADER */
 .header {
-    padding: 1.3em 0 1.1em .8em;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    background-color: #454545;
+  padding: 1.3em 0 1.1em 0.8em;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  background-color: #454545;
 }
 
 /* HEADER: Logo */
 .siteLogo {
-    position: relative;
-    margin: 0 auto;
-    max-width: 1230px;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1230px;
 }
 
 .siteLogo:before {
-    position: absolute;
-    top: -.2em;
-    left: 0;
-    width: 28px;
-    height: 28px;
-    background: url("../images/ie-logo.png") no-repeat;
-    background-size: 28px;
-    content: "";
-    pointer-events: none;
+  position: absolute;
+  top: -0.2em;
+  left: 0;
+  width: 28px;
+  height: 28px;
+  background: url("../images/ie-logo.png") no-repeat;
+  background-size: 28px;
+  content: "";
+  pointer-events: none;
 }
 
 .siteLogo a {
-    display: block;
-    padding-left: 2.8em;
+  display: block;
+  padding-left: 2.8em;
 }
 
 .open-ie {
-    padding: 0 0 .2em .4em;
-    border-left: 1px solid #fff;
-    color: #fff;
-    font-size: 20px;
-    line-height: 1em;
+  padding: 0 0 0.2em 0.4em;
+  border-left: 1px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1em;
 }
 
 /* HEADER: Menu */
 .menu {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
-    font-size: .9em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  font-size: 0.9em;
 }
 
 .menu-bar {
-    display: inline-block;
-    background-color: #454545;
+  display: inline-block;
+  background-color: #454545;
 }
 
 .menu-item a {
-    display: block;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    /*border-bottom: 5px solid;*/
-    padding: .2em 1em;
-    color: #fff;
-    line-height: 1.5em;
+  display: block;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  /*border-bottom: 5px solid;*/
+  padding: 0.2em 1em;
+  color: #fff;
+  line-height: 1.5em;
 }
 
 .menu-item a:hover {
-    color: #00abe1;
+  color: #00abe1;
 }
 
 /*
@@ -130,29 +134,29 @@ a {
 
 /* HEADER: Other links */
 .microsoft-logo {
-    display: none;
+  display: none;
 }
 
 .microsoft-logo a,
 .tw {
-    display: inline-block;
-    overflow: hidden;
-    text-indent: 100%;
-    white-space: nowrap;
+  display: inline-block;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
 }
 .microsoft-logo a {
-    width: 112px;
-    height: 24px;
+  width: 112px;
+  height: 24px;
 }
 .icon-social {
-    float: right;
-    margin-top: 1.45em;
+  float: right;
+  margin-top: 1.45em;
 }
 .tw {
-    width: 30px;
-    height: 26px;
-    background: url("../images/twitter-logo.svg") no-repeat;
-    background-size: 29px auto;
+  width: 30px;
+  height: 26px;
+  background: url("../images/twitter-logo.svg") no-repeat;
+  background-size: 29px auto;
 }
 
 .icon-microsoft-logo {
@@ -164,250 +168,254 @@ a {
 /* FOOTER */
 
 footer {
-    width: 100%;
-    min-height: 35px;
-    background-color: #404040;
+  width: 100%;
+  min-height: 35px;
+  background-color: #404040;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .links {
-    margin: 0 auto;
-    padding-top: 8px;
-    color: white;
-    text-align: center;
-    line-height: 20px;
+  color: white;
+  text-align: center;
+  line-height: 20px;
 }
 
 .links a {
-    margin-left: 25px;
-    color: white;
-    font-size: 12px;
+  margin-left: 25px;
+  color: white;
+  font-size: 12px;
+}
+
+.links a:first-of-type {
+  margin-left: 0;
 }
 
 .links a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* PROJECTS LIST */
 .projects {
-    position: relative;
-    max-width: 810px;
-    min-height: calc(100% - 185px); /* Header 60px + Footer 35px + 80px margin */ 
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding-right: 280px;
-    padding-left: 20px;
+  position: relative;
+  max-width: 810px;
+  min-height: calc(100% - 185px); /* Header 60px + Footer 35px + 80px margin */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-right: 280px;
+  padding-left: 20px;
 }
 
 .projects h2 {
-    font-size: 35px;
-    margin-bottom: 20px;
+  font-size: 35px;
+  margin-bottom: 20px;
 }
 
 .repo {
-    min-height: 150px;
-    margin-bottom: 20px;
-    padding: 20px;
-    -ms-user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
+  min-height: 150px;
+  margin-bottom: 20px;
+  padding: 20px;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .repo h3 {
-    font-weight: bold;
-    margin-bottom: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
 a .repo {
-    color: #fff;
+  color: #fff;
 }
 
 .repo img {
-    width: 80px;
-    float: left;
-    margin-right: 20px;
+  width: 80px;
+  float: left;
+  margin-right: 20px;
 }
 
 .repo.blue {
-    background-color: rgb(0, 186, 240);
+  background-color: rgb(0, 186, 240);
 }
 
 .repo.green {
-    background-color: #7fba00;
+  background-color: #7fba00;
 }
 
 .repo.purple {
-    background-color: #833885;
+  background-color: #833885;
 }
 
 .repo.orange {
-    background-color: #ff8c00;
+  background-color: #ff8c00;
 }
 
 /* RESOURCES */
 .resources {
-    position: absolute;
-    top: 70px;
-    right: 20px;
-    width: 240px;
-    min-height: 300px;
-    padding: 20px;
-    background-color: rgb(40,40,40);
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  width: 240px;
+  min-height: 300px;
+  padding: 20px;
+  background-color: rgb(40, 40, 40);
 }
 
 .resources h3 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .resources li {
-    list-style: none;
-    margin-bottom: 10px;
+  list-style: none;
+  margin-bottom: 10px;
 }
 
 .resources a {
-    color: #fff;
+  color: #fff;
 }
 @media screen and (max-width: 369px) {
-    .icon-social {
-        margin-right: 20px;
-    }
+  .icon-social {
+    margin-right: 20px;
+  }
 
-    .repo img {
-        width: 40px;
-    }
+  .repo img {
+    width: 40px;
+  }
 }
 @media screen and (min-width: 370px) {
-    .microsoft-logo {
-        display: block;
-        float: right;
-        margin: 1.4em 20px 0 1.9em;
-    }
-    .icon-social {
-        margin-right: 0;
-    }
+  .microsoft-logo {
+    display: block;
+    float: right;
+    margin: 1.4em 20px 0 1.9em;
+  }
+  .icon-social {
+    margin-right: 0;
+  }
 }
 
 @media screen and (min-width: 820px) {
-    .foot-center,
-    .links {
-        width: 800px;
-    }
+  .foot-center,
+  .links {
+    width: 800px;
+  }
 }
 
 @media screen and (max-width: 819px) {
-    .foot-center {
-        width: calc(100% - 20px);
-    }
+  .foot-center {
+    width: calc(100% - 20px);
+  }
 }
 
 @media screen and (max-width: 524px) {
-    .menu {
-        max-width: 650px;
-    }
+  .menu {
+    max-width: 650px;
+  }
 }
 
 @media screen and (max-width: 569px) {
-    .header {
-        margin-bottom: 10px;
-    }
+  .header {
+    margin-bottom: 10px;
+  }
 
-    .menu-bar {
-        display: none;
-    }
+  .menu-bar {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 690px) {
-    .resources {
-        position: static;
-        min-height: auto;
-        width: auto;
-        padding: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: rgb(40,40,40);
-    }
+  .resources {
+    position: static;
+    min-height: auto;
+    width: auto;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(40, 40, 40);
+  }
 
-    .resources li {
-        display: inline-block;
-        margin-right: 20px;
-    }
-    .projects {
-        padding-right: 20px;
-        padding-left: 20px;
-    }
-
+  .resources li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .projects {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }
 
 @media screen and (min-width: 570px) {
-    .header {
-        height: 51px;
-        border-bottom: 10px solid #6d6e71;
-        padding-left: 4%;
-    }
+  .header {
+    height: 51px;
+    border-bottom: 10px solid #6d6e71;
+    padding-left: 4%;
+  }
 
-    .menu-bar {
-        position: absolute;
-        top: 59px;
-        width: 100%;
-        left: 0;
-        background: #282828;
-    }
-    .menu-item:first-child {
-        margin-left: 4%;
-    }
-    .menu-item {
-        float: left;
-        display: inline-block;
-    }
+  .menu-bar {
+    position: absolute;
+    top: 59px;
+    width: 100%;
+    left: 0;
+    background: #282828;
+  }
+  .menu-item:first-child {
+    margin-left: 4%;
+  }
+  .menu-item {
+    float: left;
+    display: inline-block;
+  }
 
-    .menu-item a {
-        margin-bottom: -5px;
-        padding: .5em 1.5em;
-    }
+  .menu-item a {
+    margin-bottom: -5px;
+    padding: 0.5em 1.5em;
+  }
 }
 
 @media screen and (min-width: 1220px) {
-    .header {
-        height: 42px;
-        padding-left: 10px;
-        padding-bottom: 0;
-        background: -webkit-linear-gradient(left, #454545 50%, #282828 50%);
-        background: -moz-linear-gradient(left, #454545 50%, #282828 50%);
-        background: -o-linear-gradient(left, #454545 50%, #282828 50%);
-        background: linear-gradient(to right, #454545 50%, #282828 50%);
-    }
-    .menu {
-        max-width: 810px;
-        position: relative;
-        margin-top: -42px;
-    }
-    .menu-bar {
-        height: 60px;
-        position: static;
-        width: inherit;
-    }
+  .header {
+    height: 42px;
+    padding-left: 10px;
+    padding-bottom: 0;
+    background: -webkit-linear-gradient(left, #454545 50%, #282828 50%);
+    background: -moz-linear-gradient(left, #454545 50%, #282828 50%);
+    background: -o-linear-gradient(left, #454545 50%, #282828 50%);
+    background: linear-gradient(to right, #454545 50%, #282828 50%);
+  }
+  .menu {
+    max-width: 810px;
+    position: relative;
+    margin-top: -42px;
+  }
+  .menu-bar {
+    height: 60px;
+    position: static;
+    width: inherit;
+  }
 
-    .menu-item:first-child {
-        margin-left: 0;
-    }
+  .menu-item:first-child {
+    margin-left: 0;
+  }
 
-    .menu-item a {
-        min-width: 7.5em;
-        padding: 15px;
-        border-bottom-width: 10px;
-        font-size: 10px;
-    }
+  .menu-item a {
+    min-width: 7.5em;
+    padding: 15px;
+    border-bottom-width: 10px;
+    font-size: 10px;
+  }
 
-    .menu-item span {
-        display: block;
-        font-size: 2.1em;
-    }
+  .menu-item span {
+    display: block;
+    font-size: 2.1em;
+  }
 }
 
 @media screen and (max-width: 300px) {
-    .icon-social {
-        display: none;
-    }
+  .icon-social {
+    display: none;
+  }
 }
